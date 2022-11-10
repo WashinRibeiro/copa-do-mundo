@@ -62,8 +62,8 @@ h1 {
 }
 
 h2 {
-    margin-bottom: 20px;
-    color: #7b123d;
+  margin-bottom: 20px;
+  color: #7b123d;
 }
 
 section {
@@ -136,4 +136,8 @@ body::-webkit-scrollbar-thumb {
 
 .paises_baixos {
   background-image: url("./assets/fundo_paises_baixo.jpg");
+}
+
+.brasil {
+  background-image: url("./assets/fundo_brasil.jpg");
 }

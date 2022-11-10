@@ -1,31 +1,31 @@
 .hino {
-    position: fixed;
-    top: 30px;
-    display: flex;
-    left: 20px;
-    justify-content: center;
-    align-items: center;
-    gap: 15px;
-    animation-duration: 2.5s;
-    animation-name: animation-hino;
+  position: fixed;
+  top: 30px;
+  display: flex;
+  left: 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  animation-duration: 2.5s;
+  animation-name: animation-hino;
 }
 
 .hino p {
-    font-size: 14px;
-    font-style: italic;
-    color: #ff2e45;
+  font-size: 14px;
+  font-style: italic;
+  color: #ff2e45;
 }
 
 @keyframes animation-hino {
-    from {
-        left: -50px;
-        opacity: 0;
-    }
+  from {
+    left: -50px;
+    opacity: 0;
+  }
 
-    to {
-        left: 20px;
-        opacity: 1;
-    }
+  to {
+    left: 20px;
+    opacity: 1;
+  }
 }
 
 
@@ -74,7 +74,7 @@ a {
 }
 
 i {
-    font-size: 18px;
-    color: white;
-    padding: 5px !important;
+  font-size: 18px;
+  color: white;
+  padding: 5px !important;
 }
