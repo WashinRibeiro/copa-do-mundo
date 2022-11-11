@@ -123,21 +123,17 @@ body::-webkit-scrollbar-thumb {
 /* Melhorar essa lógica */
 
 .catar {
-  background-image: url("./assets/fundo_catar.jpg");
+  background-image: url("./assets/images/Grupo_A/catar/fundo_catar.jpg");
 }
 
 .senegal {
-  background-image: url("./assets/fundo_senegal.jpg");
+  background-image: url("./assets/images/Grupo_A/senegal/fundo_senegal.jpg");
 }
 
 .equador {
-  background-image: url("./assets/fundo_equador.jpg");
-}
-
-.paises_baixos {
-  background-image: url("./assets/fundo_paises_baixo.jpg");
+  background-image: url("./assets/images/Grupo_A/equador/fundo_equador.jpg");
 }
 
 .brasil {
-  background-image: url("./assets/fundo_brasil.jpg");
+  background-image: url("./assets/images/Grupo_G/brasil/fundo_brasil.jpg");
 }
