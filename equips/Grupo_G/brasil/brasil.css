@@ -61,7 +61,7 @@ section img {
     }
 }
 
-a {
+.hino a {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -73,7 +73,7 @@ a {
     cursor: pointer;
 }
 
-i {
+.hino i {
     font-size: 18px;
     color: white;
     padding: 5px !important;

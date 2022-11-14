@@ -13,6 +13,27 @@
 </head>
 
 <body>
+    <input
+      type="checkbox"
+      id="main-navigation-toggle"
+      class="btn btn--close"
+      title="Toggle main navigation"
+    />
+    <label for="main-navigation-toggle">
+      <span></span>
+    </label>
+
+    <nav id="main-navigation" class="nav-main">
+      <ul class="menu">
+        <li class="menu__item">
+          <a class="menu__link" href="../../../index.html"> Sobre </a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="#0"> Equipes </a>
+        </li>
+      </ul>
+    </nav>
+    
     <div class="hino">
         <a id="play" onclick="playShow()"><i class="ion-ios-play"></i></a>
         <a id="pause" onclick="pauseShow()" style="display:none;"><i class="ion-ios-pause"></i></a>
@@ -46,40 +67,45 @@
 
         <div class="jogadores">
             <div class="goleiros">
-                <p><strong>Goleiros</strong>
+                <ul>
+                    <strong>Goleiros</strong>
                     <li>Alisson - Liverpool</li>
                     <li>Ederson - Manchester City</li>
                     <li>Weverton - Palmeiras</li>
-                </p>
+                </ul>
             </div>
             <div class="laterais">
-                <p><strong>Laterais</strong>
+                <ul>
+                    <strong>Laterais</strong>
                     <li>Danilo - Juventus</li>
                     <li>Alex Sandro - Juventus</li>
                     <li>Daniel Alves - Pumas</li>
                     <li>Alex Telles - Sevilla</li>
-                </p>
+                </ul>
             </div>
             <div class="zagueiros">
-                <p><strong>Zagueiros</strong>
+                <ul>
+                    <strong>Zagueiros</strong>
                     <li>Militão - Real Madrid</li>
                     <li>Marquinhos - PSG</li>
                     <li>Thiago Silva - Chelsea</li>
                     <li>Bremer - Juventus</li>
-                </p>
+                </ul>
             </div>
             <div class="meiocampistas">
-                <p><strong>Meio-campistas</strong>
+                <ul>
+                    <strong>Meio-campistas</strong>
                     <li>Bruno Guimarães - Newcastle</li>
                     <li>Casemiro - Manchester United</li>
                     <li>Fabinho - Liverpool</li>
                     <li>Fred - Manchester United</li>
                     <li>Paquetá - West Ham</li>
                     <li>Everton Ribeiro - Flamengo</li>
-                </p>
+                </ul>
             </div>
             <div class="atacantes">
-                <p><strong>Atacantes</strong>
+                <ul>
+                    <strong>Atacantes</strong>
                     <li>Neymar - PSG</li>
                     <li>Vinicius Júnior - Real Madrid</li>
                     <li>Antony - Manchester United</li>
@@ -89,12 +115,10 @@
                     <li>Pedro - Flamengo</li>
                     <li>Gabriel Jesus - Arsenal</li>
                     <li>Gabriel Martinelli - Arsenal</li>
-                </p>
+                </ul>
             </div>
         </div>
     </section>
-
-    <a href="../../../index.html">Voltar</a>
 
     <script type="text/javascript" src="./brasil.js"></script>
 </body>
