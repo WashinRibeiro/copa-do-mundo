@@ -14,6 +14,27 @@
 </head>
 
 <body>
+  <input
+      type="checkbox"
+      id="main-navigation-toggle"
+      class="btn btn--close"
+      title="Toggle main navigation"
+    />
+    <label for="main-navigation-toggle">
+      <span></span>
+    </label>
+
+    <nav id="main-navigation" class="nav-main">
+      <ul class="menu">
+        <li class="menu__item">
+          <a class="menu__link" href="../../index.html"> Sobre </a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="../equips.html"> Equipes </a>
+        </li>
+      </ul>
+    </nav>
+
   <div class="hino">
     <a id="play" onclick="playShow()"><i class="ion-ios-play"></i></a>
     <a id="pause" onclick="pauseShow()" style="display:none;"><i class="ion-ios-pause"></i></a>
@@ -29,7 +50,7 @@
     <img class="flag" src="../../assets/images/Grupo_A/equador/grupoA_equador.png" alt="Bandeira Equador" />
   </header>
 
-  <section>
+  <section class="description">
     <p>
       <strong>Equador</strong>, ou <strong>República do Equador</strong>, é um país sul-americano localizado na
       região da América Andina. Sua capital é a cidade de Quito. Banhado pelo
@@ -46,8 +67,6 @@
   <section>
     <h2>Jogadores convocados para a Copa</h2>
   </section>
-
-  <a href="../../index.html"> Voltar</a>
 
   <script type="text/javascript" src="../equips.js"></script>
 </body>

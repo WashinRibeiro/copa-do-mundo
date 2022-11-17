@@ -13,6 +13,27 @@
 </head>
 
 <body>
+    <input
+      type="checkbox"
+      id="main-navigation-toggle"
+      class="btn btn--close"
+      title="Toggle main navigation"
+    />
+    <label for="main-navigation-toggle">
+      <span></span>
+    </label>
+
+    <nav id="main-navigation" class="nav-main">
+        <ul class="menu">
+          <li class="menu__item">
+            <a class="menu__link" href="../../index.html"> Sobre </a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="../equips.html"> Equipes </a>
+          </li>
+        </ul>
+      </nav>
+
     <div class="hino">
         <a id="play" onclick="playShow()"><i class="ion-ios-play"></i></a>
         <a id="pause" onclick="pauseShow()" style="display:none;"><i class="ion-ios-pause"></i></a>
@@ -29,7 +50,7 @@
         <img class="flag" src="../../assets/images/Grupo_A/holanda/grupoA_holanda.png" alt="Bandeira Holanda" />
     </header>
 
-    <section>
+    <section class="description">
         <p>
            <strong>Holanda</strong>, é uma região histórica no centro-oeste dos Países Baixos. Foi um condado do Sacro Império
             Romano-Germânico e mais tarde a liderança da República das Sete Províncias Unidas dos Países Baixos. A área
@@ -41,8 +62,6 @@
     <section>
         <h2>Jogadores convocados para a Copa</h2>
     </section>
-
-    <a href="../../index.html"> Voltar</a>
 
     <script type="text/javascript" src="../equips.js"></script>
 </body>
