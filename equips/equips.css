@@ -230,7 +230,7 @@ article.card:hover .infos .details {
 }
 
 /* ####################### */
-/* ###### KEYFRAMES ###### */
+/* ###### EQUIPS ###### */
 /* ####################### */
 
 .group {
@@ -243,12 +243,12 @@ article.card:hover .infos .details {
   flex-wrap: wrap;
 }
 
-.group a {
+.flag {
   flex: 1;
   text-align: center;
 }
 
-.group img {
+.flag img {
   width: 100%;
   max-width: 320px;
   height: 180px;
@@ -258,7 +258,12 @@ article.card:hover .infos .details {
   object-fit: cover;
 }
 
-.group img:hover {
+.flag img:hover {
   transform: scale(1.05);
   transition: all 0.4s;
+}
+
+.selection {
+  box-shadow: 0px 0px 20px #0000006e;
+  border-radius: 8px;
 }
