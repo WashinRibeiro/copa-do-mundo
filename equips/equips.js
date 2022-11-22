@@ -20,6 +20,9 @@ function selections() {
   grupoC();
   grupoD();
   grupoE();
+  grupoF();
+  grupoG();
+  grupoH();
 }
 
 function grupoA() {
@@ -46,7 +49,7 @@ function grupoA() {
     },
   ];
 
-  window.document.getElementById("grupo_a").innerHTML = this.group_a.reduce(
+  window.document.getElementById("group_a").innerHTML = this.group_a.reduce(
     (s, f) =>
       (s += `<a href="${f.link}" class="flag">
                 <img
@@ -82,7 +85,7 @@ function grupoB() {
     },
   ];
 
-  window.document.getElementById("grupo_b").innerHTML = this.group_b.reduce(
+  window.document.getElementById("group_b").innerHTML = this.group_b.reduce(
     (s, f) =>
       (s += `<a href="${f.link}" class="flag">
                 <img
@@ -118,7 +121,7 @@ function grupoC() {
     },
   ];
 
-  window.document.getElementById("grupo_c").innerHTML = this.group_c.reduce(
+  window.document.getElementById("group_c").innerHTML = this.group_c.reduce(
     (s, f) =>
       (s += `<a href="${f.link}" class="flag">
                 <img
@@ -154,7 +157,7 @@ function grupoD() {
     },
   ];
 
-  window.document.getElementById("grupo_d").innerHTML = this.group_d.reduce(
+  window.document.getElementById("group_d").innerHTML = this.group_d.reduce(
     (s, f) =>
       (s += `<a href="${f.link}" class="flag">
                 <img
@@ -190,7 +193,7 @@ function grupoE() {
     },
   ];
 
-  window.document.getElementById("grupo_e").innerHTML = this.group_e.reduce(
+  window.document.getElementById("group_e").innerHTML = this.group_e.reduce(
     (s, f) =>
       (s += `<a href="${f.link}" class="flag">
                 <img
@@ -204,6 +207,42 @@ function grupoE() {
 
 function grupoF() {
   group_f = [
+    {
+      name: "Bélgica",
+      link: "./Grupo_F/belgica.html",
+      img: "../assets/images/Grupo_F/belgica/grupoF_belgica.png",
+    },
+    {
+      name: "Canadá",
+      link: "./Grupo_F/canada.html",
+      img: "../assets/images/Grupo_F/canada/grupoF_canada.png",
+    },
+    {
+      name: "Croácia",
+      link: "./Grupo_F/croacia.html",
+      img: "../assets/images/Grupo_F/croacia/grupoF_croacia.png",
+    },
+    {
+      name: "Japão",
+      link: "./Grupo_F/marrocos.html",
+      img: "../assets/images/Grupo_F/marrocos/grupoF_marrocos.png",
+    },
+  ];
+
+  window.document.getElementById("group_f").innerHTML = this.group_f.reduce(
+    (s, f) =>
+      (s += `<a href="${f.link}" class="flag">
+                <img
+                    src="${f.img}"
+                    alt="bandeira ${f.name}"
+                />
+            </a>`),
+    ""
+  );
+}
+
+function grupoG() {
+  group_g = [
     {
       name: "Brasil",
       link: "./Grupo_G/brasil.html",
@@ -226,7 +265,43 @@ function grupoF() {
     },
   ];
 
-  window.document.getElementById("grupo_e").innerHTML = this.group_e.reduce(
+  window.document.getElementById("group_g").innerHTML = this.group_g.reduce(
+    (s, f) =>
+      (s += `<a href="${f.link}" class="flag">
+                <img
+                    src="${f.img}"
+                    alt="bandeira ${f.name}"
+                />
+            </a>`),
+    ""
+  );
+}
+
+function grupoH() {
+  group_h = [
+    {
+      name: "Coreia do Sul",
+      link: "./Grupo_H/coreia_do_sul.html",
+      img: "../assets/images/Grupo_H/coreia_do_sul/grupoH_coreia_do_sul.png",
+    },
+    {
+      name: "Gana",
+      link: "./Grupo_H/gana.html",
+      img: "../assets/images/Grupo_H/gana/grupoH_gana.webp",
+    },
+    {
+      name: "Portugal",
+      link: "./Grupo_H/portugal.html",
+      img: "../assets/images/Grupo_H/portugal/grupoH_portugal.png",
+    },
+    {
+      name: "Uruguai",
+      link: "./Grupo_H/uruguai.html",
+      img: "../assets/images/Grupo_H/uruguai/grupoH_uruguai.png",
+    },
+  ];
+
+  window.document.getElementById("group_h").innerHTML = this.group_h.reduce(
     (s, f) =>
       (s += `<a href="${f.link}" class="flag">
                 <img
