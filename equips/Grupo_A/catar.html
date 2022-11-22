@@ -13,36 +13,29 @@
 </head>
 
 <body>
-  <input
-      type="checkbox"
-      id="main-navigation-toggle"
-      class="btn btn--close"
-      title="Toggle main navigation"
-    />
-    <label for="main-navigation-toggle">
-      <span></span>
-    </label>
+  <input type="checkbox" id="main-navigation-toggle" class="btn btn--close" title="Toggle main navigation" />
+  <label for="main-navigation-toggle">
+    <span></span>
+  </label>
 
-    <nav id="main-navigation" class="nav-main">
-      <ul class="menu">
-        <li class="menu__item">
-          <a class="menu__link" href="../../index.html"> Sobre </a>
-        </li>
-        <li class="menu__item">
-          <a class="menu__link" href="../equips.html"> Equipes </a>
-        </li>
-      </ul>
-    </nav>
+  <nav id="main-navigation" class="nav-main">
+    <ul class="menu">
+      <li class="menu__item">
+        <a class="menu__link" href="../../index.html"> Sobre </a>
+      </li>
+      <li class="menu__item">
+        <a class="menu__link" href="../equips.html"> Equipes </a>
+      </li>
+    </ul>
+  </nav>
 
   <div class="hino">
     <a id="play" onclick="playShow()"><i class="ion-ios-play"></i></a>
     <a id="pause" onclick="pauseShow()" style="display:none;"><i class="ion-ios-pause"></i></a>
-
     <audio id="hino">
       <source src="../../assets/audio/hino_catar.mp3" type="audio/mp3">
     </audio>
-
-    <p>Reproduza o Hino Nacional</p>
+    <p>Hino Nacional</p>
   </div>
 
   <header>
@@ -59,15 +52,453 @@
       da classe dominante, no caso um emir. É uma das nações mais ricas do
       mundo.
     </p>
-    <img src="../../assets/images/Grupo_A/catar/fundo_catar.jpg" alt="Fundo Catar">
+    <img src="../../assets/images/Grupo_A/catar/fundo_catar.jpg" alt="Fundo Catar" />
   </section>
 
-  <section>
+  <section class="players">
     <h2>Jogadores convocados para a Copa</h2>
+    <div class="card_players">
+
+      <strong>Goleiros</strong>
+
+      <div class="item">
+        <article class="card">
+          <div class="thumb">
+            <img src="../../assets/images/Grupo_A/catar/jogadores/Goleiro_MeshaalBarsham.jpeg" alt="Meshaal Barsham" />
+          </div>
+          <div class="infos">
+            <h2 class="title">Meshaal Barsham</h2>
+            <h3 class="date">Al-Sadd</h3>
+            <h3 class="seats">24 anos</h3>
+            <p class="txt">
+              Meshaal Barsham é um futebolista catari que atua como
+              goleiro.
+            </p>
+            <!-- <h3 class="details">Ver mais</h3> -->
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="thumb">
+            <img src="../../assets/images/Grupo_A/catar/jogadores/Goleiro_SaadAlSheeb.jpeg" alt="Saad Al Sheeb" />
+          </div>
+          <div class="infos">
+            <h2 class="title">Saad Al Sheeb</h2>
+            <h3 class="date">Al-Sadd</h3>
+            <h3 class="seats">32 anos</h3>
+            <p class="txt">
+              Saad Al Sheeb é um futebolista catari que atua como
+              goleiro.
+            </p>
+            <!-- <h3 class="details">Ver mais</h3> -->
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="thumb">
+            <img src="../../assets/images/Grupo_A/catar/jogadores/Goleiro_YousefHassan.jpeg" alt="Yousef Hassan" />
+          </div>
+          <div class="infos">
+            <h2 class="title">Yousef Hassan</h2>
+            <h3 class="date">Al-Gharafa</h3>
+            <h3 class="seats">26 anos</h3>
+            <p class="txt">
+              Yousef Hassan é um futebolista catari que atua como
+              goleiro.
+            </p>
+            <!-- <h3 class="details">Ver mais</h3> -->
+          </div>
+        </article>
+      </div>
+
+      <strong>Defesa</strong>
+
+      <div class="item">
+        <article class="card">
+          <div class="thumb">
+            <img src="../../assets/images/Grupo_A/catar/jogadores/Zagueiro_AbdelkarimHassan.jpeg"
+              alt="Abdelkarim Hassan" />
+          </div>
+          <div class="infos">
+            <h2 class="title">Abdelkarim Hassan</h2>
+            <h3 class="date">Al-Sadd</h3>
+            <h3 class="seats">29 anos</h3>
+            <p class="txt">
+              Abdelkarim Hassan é um futebolista catari que atua como
+              defensor.
+            </p>
+            <!-- <h3 class="details">Ver mais</h3> -->
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="thumb">
+            <img src="../../assets/images/Grupo_A/catar/jogadores/Zagueiro_BassamAl-Rwai.jpeg" alt="Bassam Al-Rwai" />
+          </div>
+          <div class="infos">
+            <h2 class="title">Bassam Al-Rwai</h2>
+            <h3 class="date">Al-Duhail</h3>
+            <h3 class="seats">24 anos</h3>
+            <p class="txt">
+              Bassam Al-Rwai é um futebolista catari que atua como
+              defensor.
+            </p>
+            <!-- <h3 class="details">Ver mais</h3> -->
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="thumb">
+            <img src="../../assets/images/Grupo_A/catar/jogadores/Zagueiro_BoualemKhoukhi.jpeg" alt="Boualem Khoukhi" />
+          </div>
+          <div class="infos">
+            <h2 class="title">Boualem Khoukhi</h2>
+            <h3 class="date">Al-Sadd</h3>
+            <h3 class="seats">32 anos</h3>
+            <p class="txt">
+              Boualem Khoukhi é um futebolista catari que atua como
+              defensor.
+            </p>
+            <!-- <h3 class="details">Ver mais</h3> -->
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="thumb">
+            <img src="../../assets/images/Grupo_A/catar/jogadores/Zagueiro_HomamAhmed.jpeg" alt="Homam Ahmed" />
+          </div>
+          <div class="infos">
+            <h2 class="title">Homam Ahmed</h2>
+            <h3 class="date">Al-Gharafa</h3>
+            <h3 class="seats">23 anos</h3>
+            <p class="txt">
+              Homam Ahmed é um futebolista catari que atua como
+              defensor.
+            </p>
+            <!-- <h3 class="details">Ver mais</h3> -->
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="thumb">
+            <img src="../../assets/images/Grupo_A/catar/jogadores/Zagueiro_IsmaeelMohammad.jpeg"
+              alt="Ismaeel Mohammad" />
+          </div>
+          <div class="infos">
+            <h2 class="title">Ismaeel Mohammad</h2>
+            <h3 class="date">Al-Duhail</h3>
+            <h3 class="seats">32 anos</h3>
+            <p class="txt">
+              Ismaeel Mohammad é um futebolista catari que atua como
+              defensor.
+            </p>
+            <!-- <h3 class="details">Ver mais</h3> -->
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="thumb">
+            <img src="../../assets/images/Grupo_A/catar/jogadores/Zagueiro_JassemGaber.jpeg" alt="Jassem Gaber" />
+          </div>
+          <div class="infos">
+            <h2 class="title">Jassem Gaber</h2>
+            <h3 class="date">Al-Arabi</h3>
+            <h3 class="seats">20 anos</h3>
+            <p class="txt">
+              Jassem Gaber é um futebolista catari que atua como
+              defensor.
+            </p>
+            <!-- <h3 class="details">Ver mais</h3> -->
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="thumb">
+            <img src="../../assets/images/Grupo_A/catar/jogadores/Zagueiro_MusabKheder.jpeg" alt="Musab Kheder" />
+          </div>
+          <div class="infos">
+            <h2 class="title">Musab Kheder</h2>
+            <h3 class="date">Al-Sadd</h3>
+            <h3 class="seats">29 anos</h3>
+            <p class="txt">
+              Musab Kheder é um futebolista catari que atua como
+              defensor.
+            </p>
+            <!-- <h3 class="details">Ver mais</h3> -->
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="thumb">
+            <img src="../../assets/images/Grupo_A/catar/jogadores/Zagueiro_PedroMiguel.jpeg" alt="Pedro Miguel" />
+          </div>
+          <div class="infos">
+            <h2 class="title">Pedro Miguel</h2>
+            <h3 class="date">Al-Sadd</h3>
+            <h3 class="seats">32 anos</h3>
+            <p class="txt">
+              Pedro Miguel é um futebolista catari que atua como
+              defensor.
+            </p>
+            <!-- <h3 class="details">Ver mais</h3> -->
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="thumb">
+            <img src="../../assets/images/Grupo_A/catar/jogadores/Zagueiro_TarekSalman.jpeg" alt="Tarek Salman" />
+          </div>
+          <div class="infos">
+            <h2 class="title">Tarek Salman</h2>
+            <h3 class="date">Al-Sadd</h3>
+            <h3 class="seats">24 anos</h3>
+            <p class="txt">
+              Tarek Salman é um futebolista catari que atua como
+              defensor.
+            </p>
+            <!-- <h3 class="details">Ver mais</h3> -->
+          </div>
+        </article>
+      </div>
+
+      <strong>Meio-campistas</strong>
+
+      <div class="item">
+        <article class="card">
+          <div class="thumb">
+            <img src="../../assets/images/Grupo_A/catar/jogadores/MeioCampista_AbdulazizHatem.jpeg"
+              alt="Abdulaziz Hatem" />
+          </div>
+          <div class="infos">
+            <h2 class="title">Abdulaziz Hatem</h2>
+            <h3 class="date">Al-Rayyan</h3>
+            <h3 class="seats">32 anos</h3>
+            <p class="txt">
+              Abdulaziz Hatem é um futebolista catari que atua como
+              Meio-campista.
+            </p>
+            <!-- <h3 class="details">Ver mais</h3> -->
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="thumb">
+            <img src="../../assets/images/Grupo_A/catar/jogadores/MeioCampista_AliAssadalia.jpeg" alt="Ali Assadalia" />
+          </div>
+          <div class="infos">
+            <h2 class="title">Ali Assadalia</h2>
+            <h3 class="date">Al-Sadd</h3>
+            <h3 class="seats">29 anos</h3>
+            <p class="txt">
+              Ali Assadalia é um futebolista catari que atua como
+              Meio-campista.
+            </p>
+            <!-- <h3 class="details">Ver mais</h3> -->
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="thumb">
+            <img src="../../assets/images/Grupo_A/catar/jogadores/MeioCampista_AssimMadibo.jpeg" alt="Assim Madibo" />
+          </div>
+          <div class="infos">
+            <h2 class="title">Assim Madibo</h2>
+            <h3 class="date">Al-Duhail</h3>
+            <h3 class="seats">26 anos</h3>
+            <p class="txt">
+              Assim Madibo é um futebolista catari que atua como
+              Meio-campista.
+            </p>
+            <!-- <h3 class="details">Ver mais</h3> -->
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="thumb">
+            <img src="../../assets/images/Grupo_A/catar/jogadores/MeioCampista_KarimBoudiaf.jpeg" alt="Karim Boudiaf" />
+          </div>
+          <div class="infos">
+            <h2 class="title">Karim Boudiaf</h2>
+            <h3 class="date">Al-Duhail</h3>
+            <h3 class="seats">32 anos</h3>
+            <p class="txt">
+              Karim Boudiaf é um futebolista catari que atua como
+              Meio-campista.
+            </p>
+            <!-- <h3 class="details">Ver mais</h3> -->
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="thumb">
+            <img src="../../assets/images/Grupo_A/catar/jogadores/MeioCampista_MohammedWaad.jpeg" alt="Mohammed Waad" />
+          </div>
+          <div class="infos">
+            <h2 class="title">Mohammed Waad</h2>
+            <h3 class="date">Al-Sadd</h3>
+            <h3 class="seats">23 anos</h3>
+            <p class="txt">
+              Mohammed Waad é um futebolista catari que atua como
+              Meio-campista.
+            </p>
+            <!-- <h3 class="details">Ver mais</h3> -->
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="thumb">
+            <img src="../../assets/images/Grupo_A/catar/jogadores/MeioCampista_MostafaTarek.jpeg" alt="Mostafa Tarek" />
+          </div>
+          <div class="infos">
+            <h2 class="title">Mostafa Tarek</h2>
+            <h3 class="date">Al-Sadd</h3>
+            <h3 class="seats">21 anos</h3>
+            <p class="txt">
+              Mostafa Tarek é um futebolista catari que atua como
+              Meio-campista.
+            </p>
+            <!-- <h3 class="details">Ver mais</h3> -->
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="thumb">
+            <img src="../../assets/images/Grupo_A/catar/jogadores/MeioCampista_SalemAl-Hajri.jpeg"
+              alt="Salem Al-Hajri" />
+          </div>
+          <div class="infos">
+            <h2 class="title">Salem Al-Hajri</h2>
+            <h3 class="date">Al-Sadd</h3>
+            <h3 class="seats">26 anos</h3>
+            <p class="txt">
+              Salem Al-Hajri é um futebolista catari que atua como
+              Meio-campista.
+            </p>
+            <!-- <h3 class="details">Ver mais</h3> -->
+          </div>
+        </article>
+      </div>
+
+      <strong>Atacantes</strong>
+
+      <div class="item">
+        <article class="card">
+          <div class="thumb">
+            <img src="../../assets/images/Grupo_A/catar/jogadores/Atacante_AhmedAlaaeldin.jpeg" alt="Ahmed Alaaeldin" />
+          </div>
+          <div class="infos">
+            <h2 class="title">Ahmed Alaaeldin</h2>
+            <h3 class="date">Al-Gharafa</h3>
+            <h3 class="seats">29 anos</h3>
+            <p class="txt">
+              Ahmed Alaaeldin é um futebolista catari que atua como
+              Atacante.
+            </p>
+            <!-- <h3 class="details">Ver mais</h3> -->
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="thumb">
+            <img src="../../assets/images/Grupo_A/catar/jogadores/Atacante_AkramAfif.jpeg" alt="Akram Afif" />
+          </div>
+          <div class="infos">
+            <h2 class="title">Akram Afif</h2>
+            <h3 class="date">Al-Sadd</h3>
+            <h3 class="seats">26 anos</h3>
+            <p class="txt">
+              Akram Afif é um futebolista catari que atua como
+              Atacante.
+            </p>
+            <!-- <h3 class="details">Ver mais</h3> -->
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="thumb">
+            <img src="../../assets/images/Grupo_A/catar/jogadores/Atacante_AlmoezAli.jpeg" alt="Almoez Ali" />
+          </div>
+          <div class="infos">
+            <h2 class="title">Almoez Ali</h2>
+            <h3 class="date">Al-Duhail</h3>
+            <h3 class="seats">26 anos</h3>
+            <p class="txt">
+              Almoez Ali é um futebolista catari que atua como
+              Atacante.
+            </p>
+            <!-- <h3 class="details">Ver mais</h3> -->
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="thumb">
+            <img src="../../assets/images/Grupo_A/catar/jogadores/Atacante_HassanAl-Haydos.jpeg"
+              alt="Hassan Al-Haydos" />
+          </div>
+          <div class="infos">
+            <h2 class="title">Hassan Al-Haydos</h2>
+            <h3 class="date">Al-Sadd</h3>
+            <h3 class="seats">31 anos</h3>
+            <p class="txt">
+              Hassan Al-Haydos é um futebolista catari que atua como
+              Atacante.
+            </p>
+            <!-- <h3 class="details">Ver mais</h3> -->
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="thumb">
+            <img src="../../assets/images/Grupo_A/catar/jogadores/Atacante_KhalidMuneer.jpeg" alt="Khalid Muneer" />
+          </div>
+          <div class="infos">
+            <h2 class="title">Khalid Muneer</h2>
+            <h3 class="date">Al-Wakrah</h3>
+            <h3 class="seats">24 anos</h3>
+            <p class="txt">
+              Khalid Muneer é um futebolista catari que atua como
+              Atacante.
+            </p>
+            <!-- <h3 class="details">Ver mais</h3> -->
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="thumb">
+            <img src="../../assets/images/Grupo_A/catar/jogadores/Atacante_MohammedMuntari.jpeg"
+              alt="Mohammed Muntari" />
+          </div>
+          <div class="infos">
+            <h2 class="title">Mohammed Muntari</h2>
+            <h3 class="date">Al-Duhail</h3>
+            <h3 class="seats">28 anos</h3>
+            <p class="txt">
+              Mohammed Muntari é um futebolista catari que atua como
+              Atacante.
+            </p>
+            <!-- <h3 class="details">Ver mais</h3> -->
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="thumb">
+            <img src="../../assets/images/Grupo_A/catar/jogadores/Atacante_NaifAl-Hadhrami.jpeg"
+              alt="Naif Al-Hadhrami" />
+          </div>
+          <div class="infos">
+            <h2 class="title">Naif Al-Hadhrami</h2>
+            <h3 class="date">Al-Rayyan</h3>
+            <h3 class="seats">21 anos</h3>
+            <p class="txt">
+              Naif Al-Hadhrami é um futebolista catari que atua como
+              Atacante.
+            </p>
+            <!-- <h3 class="details">Ver mais</h3> -->
+          </div>
+        </article>
+      </div>
+    </div>
   </section>
-
-  <a href="../../index.html"> Voltar</a>
-
   <script type="text/javascript" src="../equips.js"></script>
 </body>
 
