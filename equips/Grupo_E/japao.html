@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="../../assets/images/Grupo_E/japao/grupoE_japao.jpeg" type="image/x-icon" />
+  <link rel="stylesheet" href="../../style.css" />
+  <link rel="stylesheet" href="../equips.css" />
+  <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" />
+  <title>Japão</title>
+</head>
+
+<body>
+  <input type="checkbox" id="main-navigation-toggle" class="btn btn--close" title="Toggle main navigation" />
+  <label for="main-navigation-toggle">
+    <span></span>
+  </label>
+
+  <nav id="main-navigation" class="nav-main">
+    <ul class="menu">
+      <li class="menu__item">
+        <a class="menu__link" href="../../index.html"> Sobre </a>
+      </li>
+      <li class="menu__item">
+        <a class="menu__link" href="../equips.html"> Equipes </a>
+      </li>
+    </ul>
+  </nav>
+
+  <div class="hino">
+    <a id="play" onclick="playShow()"><i class="ion-ios-play"></i></a>
+    <a id="pause" onclick="pauseShow()" style="display: none"><i class="ion-ios-pause"></i></a>
+    <audio id="hino">
+      <source src="../../assets/audio/hino_brasil.mp3" type="audio/mp3" />
+    </audio>
+    <p>Hino Nacional</p>
+  </div>
+
+  <header>
+    <h1>Seja bem vindo ao Japão</h1>
+    <img class="selection" src="../../assets/images/Grupo_E/japao/grupoE_japao.jpeg" alt="Bandeira do Espanha" />
+  </header>
+
+  <section class="description">
+    <p>
+      O <strong>Japão</strong> é um país asiático banhado pelo oceano Pacífico. Seu território é formado por milhares de ilhas, das quais
+      se destacam quatro: Honshu, a maior delas e onde fica a capital japonesa, Tóquio, Hokkaido, Shikoku e Kyushu.
+
+      Situado em uma das áreas mais geologicamente instáveis do mundo, o Japão possui um relevo montanhoso que
+      influencia a distribuição de umidade pelo país. Dois climas são predominantes, o temperado e o tropical. O país
+      possui uma população de mais de 126 milhões de habitantes, além de uma economia altamente desenvolvida e
+      reconhecida pela utilização de avançada tecnologia no setor industrial.
+    </p>
+    <img src="../../assets/images/Grupo_E/japao/fundo_japao.webp" alt="Fundo Japão" />
+  </section>
+
+  <!-- <section class="players">
+      <h2>Jogadores convocados</h2>
+
+      <div class="card_players">
+        <strong>Goleiros</strong>
+        <div class="item">
+          <article class="card">
+            <div class="thumb">
+              <img
+                src="../../assets/images/Grupo_G/brasil/jogadores/Alisson.jpg"
+                alt="Alisson"
+              />
+            </div>
+            <div class="infos">
+              <h2 class="title">Alisson</h2>
+              <h3 class="date">Liverpool</h3>
+              <h3 class="seats">30 anos</h3>
+              <p class="txt">
+                Alisson Ramses Becker é um futebolista brasileiro que atua como
+                goleiro. Ao se transferir ao Liverpool, Alisson se tornou o
+                goleiro mais caro da história do futebol ultrapassando Buffon
+                quando se transferiu do Parma com destino a Juventus por 54,2
+                milhões de euros.
+              </p>
+              <h3 class="details">Ver mais</h3>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="thumb">
+              <img
+                src="../../assets/images/Grupo_G/brasil/jogadores/Ederson.jpg"
+                alt="Ederson"
+              />
+            </div>
+            <div class="infos">
+              <h2 class="title">Ederson</h2>
+              <h3 class="date">Manchester City</h3>
+              <h3 class="seats">29 anos</h3>
+              <p class="txt">
+                Ederson Santana de Moraes, mais conhecido apenas como Ederson, é
+                um futebolista brasileiro que atua como goleiro.
+              </p>
+              <h3 class="details">Ver mais</h3>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="thumb">
+              <img
+                src="../../assets/images/Grupo_G/brasil/jogadores/Weverton.jpg"
+                alt="Weverton"
+              />
+            </div>
+            <div class="infos">
+              <h2 class="title">Weverton</h2>
+              <h3 class="date">Palmeiras</h3>
+              <h3 class="seats">29 anos</h3>
+              <p class="txt">
+                Weverton Pereira da Silva, mais conhecido apenas como Weverton,
+                é um futebolista brasileiro que atua como goleiro.
+              </p>
+              <h3 class="details">Ver mais</h3>
+            </div>
+          </article>
+        </div>
+
+        <strong>Laterais</strong>
+        <div class="item">
+          <article class="card">
+            <div class="thumb">
+              <img
+                src="../../assets/images/Grupo_G/brasil/jogadores/Danilo.jpg"
+                alt="Danilo"
+              />
+            </div>
+            <div class="infos">
+              <h2 class="title">Danilo</h2>
+              <h3 class="date">Juventus</h3>
+              <h3 class="seats">31 anos</h3>
+              <p class="txt">
+                Danilo Luiz da Silva mais conhecido como Danilo é um futebolista
+                brasileiro que atua como lateral-direito.
+              </p>
+              <h3 class="details">Ver mais</h3>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="thumb">
+              <img
+                src="../../assets/images/Grupo_G/brasil/jogadores/AlexSandro.webp"
+                alt="Alex Sandro"
+              />
+            </div>
+            <div class="infos">
+              <h2 class="title">Alex Sandro</h2>
+              <h3 class="date">Juventus</h3>
+              <h3 class="seats">31 anos</h3>
+              <p class="txt">
+                Alex Sandro Lobo Silva, mais conhecido apenas como Alex Sandro,
+                é um futebolista brasileiro que atua como lateral-esquerdo.
+              </p>
+              <h3 class="details">Ver mais</h3>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="thumb">
+              <img
+                src="../../assets/images/Grupo_G/brasil/jogadores/DanielAlves.jpg"
+                alt="Daniel Alves"
+              />
+            </div>
+            <div class="infos">
+              <h2 class="title">Daniel Alves</h2>
+              <h3 class="date">Pumas</h3>
+              <h3 class="seats">39 anos</h3>
+              <p class="txt">
+                Com 43 títulos conquistados, Daniel Alves é o jogador com mais
+                títulos oficiais na história do futebol.
+              </p>
+              <h3 class="details">Ver mais</h3>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="thumb">
+              <img
+                src="../../assets/images/Grupo_G/brasil/jogadores/AlexTelles.jpg"
+                alt="Alex Telles"
+              />
+            </div>
+            <div class="infos">
+              <h2 class="title">Alex Telles</h2>
+              <h3 class="date">Sevilla</h3>
+              <h3 class="seats">31 anos</h3>
+              <p class="txt">
+                Alex Nicolao Telles atualmente defende o Sevilla, emprestado
+                pelo Manchester United.
+              </p>
+              <h3 class="details">Ver mais</h3>
+            </div>
+          </article>
+        </div>
+
+        <strong>Zagueiros</strong>
+        <div class="item">
+          <article class="card">
+            <div class="thumb">
+              <img
+                src="../../assets/images/Grupo_G/brasil/jogadores/Militao.jpg"
+                alt="Militão"
+              />
+            </div>
+            <div class="infos">
+              <h2 class="title">Militão</h2>
+              <h3 class="date">Real Madrid</h3>
+              <h3 class="seats">24 anos</h3>
+              <p class="txt">
+                Éder Gabriel Militão, mais conhecido como Éder Militão ou
+                simplesmente Militão, é um futebolista brasileiro que atua como
+                zagueiro.
+              </p>
+              <h3 class="details">Ver mais</h3>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="thumb">
+              <img
+                src="../../assets/images/Grupo_G/brasil/jogadores/Marquinhos.jpeg"
+                alt="Marquinhos"
+              />
+            </div>
+            <div class="infos">
+              <h2 class="title">Marquinhos</h2>
+              <h3 class="date">PSG</h3>
+              <h3 class="seats">28 anos</h3>
+              <p class="txt">
+                Marcos Aoás Corrêa, mais conhecido como Marquinhos, é um
+                futebolista luso-brasileiro que atua como zagueiro.
+              </p>
+              <h3 class="details">Ver mais</h3>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="thumb">
+              <img
+                src="../../assets/images/Grupo_G/brasil/jogadores/ThiagoSilva.webp"
+                alt="Thiago Silva"
+              />
+            </div>
+            <div class="infos">
+              <h2 class="title">Thiago Silva</h2>
+              <h3 class="date">Chelsea</h3>
+              <h3 class="seats">38 anos</h3>
+              <p class="txt">
+                Thiago Emiliano da Silva é um futebolista brasileiro que atua
+                como zagueiro. Com 109 jogos pela Seleção Brasileira, é o
+                zagueiro com mais jogos pelo Brasil e o quinto atleta no total.
+              </p>
+              <h3 class="details">Ver mais</h3>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="thumb">
+              <img
+                src="../../assets/images/Grupo_G/brasil/jogadores/Bremer.webp"
+                alt="Bremer"
+              />
+            </div>
+            <div class="infos">
+              <h2 class="title">Bremer</h2>
+              <h3 class="date">Juventus</h3>
+              <h3 class="seats">38 anos</h3>
+              <p class="txt">
+                Gleison Bremer Silva Nascimento, mais conhecido apenas como
+                Bremer, é um futebolista brasileiro que atua como zagueiro.
+              </p>
+              <h3 class="details">Ver mais</h3>
+            </div>
+          </article>
+        </div>
+
+        <strong>Meio-campistas</strong>
+        <div class="item">
+          <article class="card">
+            <div class="thumb">
+              <img
+                src="../../assets/images/Grupo_G/brasil/jogadores/BrunoGuimaraes.jpg"
+                alt="Bruno Guimarães"
+              />
+            </div>
+            <div class="infos">
+              <h2 class="title">Bruno Guimarães</h2>
+              <h3 class="date">Newcastle</h3>
+              <h3 class="seats">24 anos</h3>
+              <p class="txt">
+                Bruno Guimarães Rodrigues Moura é um futebolista brasileiro que
+                atua como volante.
+              </p>
+              <h3 class="details">Ver mais</h3>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="thumb">
+              <img
+                src="../../assets/images/Grupo_G/brasil/jogadores/Casemiro.jpg"
+                alt="Casemiro"
+              />
+            </div>
+            <div class="infos">
+              <h2 class="title">Casemiro</h2>
+              <h3 class="date">Manchester United</h3>
+              <h3 class="seats">30 anos</h3>
+              <p class="txt">
+                Carlos Henrique Casimiro, mais conhecido como Casemiro, é um
+                futebolista brasileiro que atua como volante.
+              </p>
+              <h3 class="details">Ver mais</h3>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="thumb">
+              <img
+                src="../../assets/images/Grupo_G/brasil/jogadores/Fabinho.jpeg"
+                alt="Fabinho"
+              />
+            </div>
+            <div class="infos">
+              <h2 class="title">Fabinho</h2>
+              <h3 class="date">Liverpool</h3>
+              <h3 class="seats">29 anos</h3>
+              <p class="txt">
+                CFábio Henrique Tavares, mais conhecido como Fabinho, é um
+                futebolista brasileiro que atua como volante.
+              </p>
+              <h3 class="details">Ver mais</h3>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="thumb">
+              <img
+                src="../../assets/images/Grupo_G/brasil/jogadores/Fred.jpeg"
+                alt="Fred"
+              />
+            </div>
+            <div class="infos">
+              <h2 class="title">Fred</h2>
+              <h3 class="date">Manchester United</h3>
+              <h3 class="seats">30 anos</h3>
+              <p class="txt">
+                Frederico Rodrigues de Paula Santos, mais conhecido como Fred, é
+                um futebolista brasileiro que atua como volante
+              </p>
+              <h3 class="details">Ver mais</h3>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="thumb">
+              <img
+                src="../../assets/images/Grupo_G/brasil/jogadores/Paqueta.webp"
+                alt="Paquetá"
+              />
+            </div>
+            <div class="infos">
+              <h2 class="title">Paquetá</h2>
+              <h3 class="date">West Ham</h3>
+              <h3 class="seats">25 anos</h3>
+              <p class="txt">
+                Lucas Tolentino Coelho de Lima, mais conhecido como Lucas
+                Paquetá, é um futebolista brasileiro que atua como meio-campista
+              </p>
+              <h3 class="details">Ver mais</h3>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="thumb">
+              <img
+                src="../../assets/images/Grupo_G/brasil/jogadores/EvertonRibeiro.webp"
+                alt="Everton"
+              />
+            </div>
+            <div class="infos">
+              <h2 class="title">Everton Ribeiro</h2>
+              <h3 class="date">Flamengo</h3>
+              <h3 class="seats">33 anos</h3>
+              <p class="txt">
+                Éverton Augusto de Barros Ribeiro, mais conhecido como Éverton
+                Ribeiro, é um futebolista brasileiro que atua como meio-campista
+                e ponta-direita.
+              </p>
+              <h3 class="details">Ver mais</h3>
+            </div>
+          </article>
+        </div>
+
+        <strong>Atacantes</strong>
+        <div class="item">
+          <article class="card">
+            <div class="thumb">
+              <img
+                src="../../assets/images/Grupo_G/brasil/jogadores/Neymar.jpeg"
+                alt="Neymar"
+              />
+            </div>
+            <div class="infos">
+              <h2 class="title">Neymar</h2>
+              <h3 class="date">PSG</h3>
+              <h3 class="seats">30 anos</h3>
+              <p class="txt">
+                Neymar da Silva Santos Júnior, mais conhecido apenas como
+                Neymar, é considerado o principal futebolista brasileiro da
+                atualidade e um dos melhores futebolistas do mundo.
+              </p>
+              <h3 class="details">Ver mais</h3>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="thumb">
+              <img
+                src="../../assets/images/Grupo_G/brasil/jogadores/ViniciusJunior.jpg"
+                alt="Vinicius Júnior"
+              />
+            </div>
+            <div class="infos">
+              <h2 class="title">Vinicius Júnior</h2>
+              <h3 class="date">Real Madrid</h3>
+              <h3 class="seats">22 anos</h3>
+              <p class="txt">
+                Vinícius José Paixão de Oliveira Júnior, mais conhecido como
+                Vinícius Júnior ou Vini Jr, é um futebolista brasileiro que
+                também possui a nacionalidade espanhola.
+              </p>
+              <h3 class="details">Ver mais</h3>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="thumb">
+              <img
+                src="../../assets/images/Grupo_G/brasil/jogadores/Antony.jpg"
+                alt="Antony"
+              />
+            </div>
+            <div class="infos">
+              <h2 class="title">Antony</h2>
+              <h3 class="date">Manchester United</h3>
+              <h3 class="seats">22 anos</h3>
+              <p class="txt">
+                Antony Matheus dos Santos, mais conhecido apenas como Antony, é
+                um futebolista brasileiro que atua como ponta-direita.
+              </p>
+              <h3 class="details">Ver mais</h3>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="thumb">
+              <img
+                src="../../assets/images/Grupo_G/brasil/jogadores/Rodrygo.jpg"
+                alt="Rodrygo"
+              />
+            </div>
+            <div class="infos">
+              <h2 class="title">Rodrygo</h2>
+              <h3 class="date">Real Madrid</h3>
+              <h3 class="seats">21 anos</h3>
+              <p class="txt">
+                Rodrygo Silva de Goes, mais conhecido apenas como Rodrygo, é um
+                futebolista brasileiro que atua como atacante
+              </p>
+              <h3 class="details">Ver mais</h3>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="thumb">
+              <img
+                src="../../assets/images/Grupo_G/brasil/jogadores/Raphinha.jpg"
+                alt="Raphinha"
+              />
+            </div>
+            <div class="infos">
+              <h2 class="title">Raphinha</h2>
+              <h3 class="date">Barcelona</h3>
+              <h3 class="seats">25 anos</h3>
+              <p class="txt">
+                Raphael Dias Belloli, mais conhecido como Raphinha, é um
+                futebolista brasileiro que atua como ponta.
+              </p>
+              <h3 class="details">Ver mais</h3>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="thumb">
+              <img
+                src="../../assets/images/Grupo_G/brasil/jogadores/Richarlison.jpg"
+                alt="Richarlison"
+              />
+            </div>
+            <div class="infos">
+              <h2 class="title">Richarlison</h2>
+              <h3 class="date">Tottenham</h3>
+              <h3 class="seats">25 anos</h3>
+              <p class="txt">
+                Richarlison de Andrade, mais conhecido como Richarlison, é um
+                futebolista brasileiro que atua como atacante
+              </p>
+              <h3 class="details">Ver mais</h3>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="thumb">
+              <img
+                src="../../assets/images/Grupo_G/brasil/jogadores/Pedro.jpg"
+                alt="Pedro"
+              />
+            </div>
+            <div class="infos">
+              <h2 class="title">Pedro</h2>
+              <h3 class="date">Flamengo</h3>
+              <h3 class="seats">25 anos</h3>
+              <p class="txt">
+                Pedro Guilherme Abreu dos Santos, mais conhecido apenas como
+                Pedro, é um futebolista brasileiro que atua como centroavante
+              </p>
+              <h3 class="details">Ver mais</h3>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="thumb">
+              <img
+                src="../../assets/images/Grupo_G/brasil/jogadores/GabrielJesus.jpg"
+                alt="Gabriel Jesus"
+              />
+            </div>
+            <div class="infos">
+              <h2 class="title">Gabriel Jesus</h2>
+              <h3 class="date">Arsenal</h3>
+              <h3 class="seats">25 anos</h3>
+              <p class="txt">
+                Gabriel Fernando de Jesus, mais conhecido como Gabriel Jesus, é
+                um futebolista brasileiro que atua como atacante
+              </p>
+              <h3 class="details">Ver mais</h3>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="thumb">
+              <img
+                src="../../assets/images/Grupo_G/brasil/jogadores/GabrielMartinelli.webp"
+                alt="Gabriel Martinelli"
+              />
+            </div>
+            <div class="infos">
+              <h2 class="title">Gabriel Martinelli</h2>
+              <h3 class="date">Arsenal</h3>
+              <h3 class="seats">21 anos</h3>
+              <p class="txt">
+                Gabriel Teodoro Martinelli Silva é um futebolista brasileiro que
+                atua como atacante
+              </p>
+              <h3 class="details">Ver mais</h3>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section> -->
+
+  <script type="text/javascript" src="../equips.js"></script>
+</body>
+
+</html>
