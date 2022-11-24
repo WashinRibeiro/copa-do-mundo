@@ -106,13 +106,13 @@ function grupoC() {
     },
     {
       name: "Argentina",
-      link: "./Grupo_C/mexico.html",
-      img: "../assets/images/Grupo_C/mexico/grupoC_mexico.jpg",
+      link: "./Grupo_C/argentina.html",
+      img: "../assets/images/Grupo_C/argentina/grupoC_argentina.jpg",
     },
     {
       name: "Mexico",
-      link: "./Grupo_B/ira.html",
-      img: "../assets/images/Grupo_B/ira/grupoB_ira.png",
+      link: "./Grupo_C/mexico.html",
+      img: "../assets/images/Grupo_C/mexico/grupoC_mexico.jpg",
     },
     {
       name: "Polonia",
